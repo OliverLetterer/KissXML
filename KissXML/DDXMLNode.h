@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <libxml/tree.h>
 
 @class DDXMLDocument;
 
@@ -21,20 +20,21 @@
  * https://github.com/robbiehanson/KissXML/wiki/Reference
 **/
 
+
 enum {
 	DDXMLInvalidKind                = 0,
-	DDXMLDocumentKind               = XML_DOCUMENT_NODE,
-	DDXMLElementKind                = XML_ELEMENT_NODE,
-	DDXMLAttributeKind              = XML_ATTRIBUTE_NODE,
-	DDXMLNamespaceKind              = XML_NAMESPACE_DECL,
-	DDXMLProcessingInstructionKind  = XML_PI_NODE,
-	DDXMLCommentKind                = XML_COMMENT_NODE,
-	DDXMLTextKind                   = XML_TEXT_NODE,
-	DDXMLDTDKind                    = XML_DTD_NODE,
-	DDXMLEntityDeclarationKind      = XML_ENTITY_DECL,
-	DDXMLAttributeDeclarationKind   = XML_ATTRIBUTE_DECL,
-	DDXMLElementDeclarationKind     = XML_ELEMENT_DECL,
-	DDXMLNotationDeclarationKind    = XML_NOTATION_NODE
+	DDXMLDocumentKind               = 9,
+	DDXMLElementKind                = 1,
+	DDXMLAttributeKind              = 2,
+	DDXMLNamespaceKind              = 18,
+	DDXMLProcessingInstructionKind  = 7,
+	DDXMLCommentKind                = 8,
+	DDXMLTextKind                   = 3,
+	DDXMLDTDKind                    = 14,
+	DDXMLEntityDeclarationKind      = 17,
+	DDXMLAttributeDeclarationKind   = 16,
+	DDXMLElementDeclarationKind     = 15,
+	DDXMLNotationDeclarationKind    = 12
 };
 typedef NSUInteger DDXMLNodeKind;
 

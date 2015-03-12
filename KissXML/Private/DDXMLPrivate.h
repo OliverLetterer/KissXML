@@ -1,5 +1,5 @@
 #import "DDXML.h"
-
+#import <libxml/tree.h>
 
 // We can't rely solely on NSAssert, because many developers disable them for release builds.
 // Our API contract requires us to keep these assertions intact.
