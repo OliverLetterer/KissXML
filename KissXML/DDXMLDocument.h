@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#import <KissXML/DDXMLElement.h>
-#import <KissXML/DDXMLNode.h>
+#import <KissXMLFork/DDXMLElement.h>
+#import <KissXMLFork/DDXMLNode.h>
 
 /**
  * Welcome to KissXML.
