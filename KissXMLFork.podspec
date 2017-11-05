@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = 'KissXML'
-  s.version      = '5.0.0.2'
+  s.name         = 'KissXMLFork'
+  s.version      = '5.1.0'
   s.license      = 'MIT'
   s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml.'
   s.homepage     = 'https://github.com/robbiehanson/KissXML'
